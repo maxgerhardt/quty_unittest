@@ -23,4 +23,4 @@ jobs:
       - name: Build PlatformIO Project
         run: pio run
       - name: Unit Test PlatformIO Project
-        run: pio test --without-uploading
+        run: pio test --without-testing -vvv
